@@ -8,7 +8,7 @@
 
 html, body {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     background-color: black;
 }
 
@@ -20,8 +20,8 @@ body {
 }
 
 main {
-    height: 100vh;
     position: relative;
+    height: 100vh;
 }
 
 section#telefone {
@@ -39,7 +39,7 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
@@ -59,5 +59,5 @@ section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.622);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.622);
-    transition: transform .3s, border 1s;
+    transform: translate .3s, border 1s;
 }
